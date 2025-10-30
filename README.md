@@ -125,6 +125,6 @@ phone-sales-website/
 ## Hỗ trợ
 
 Nếu bạn có bất kỳ câu hỏi hoặc vấn đề, vui lòng liên hệ:
-- Email: support@phonehub.vn
-- Điện thoại: 1900 1234
+- Email: nhukhiem24@gmail.com
+- Điện thoại: 0395167321
 - Website: https://phonehub.vn
