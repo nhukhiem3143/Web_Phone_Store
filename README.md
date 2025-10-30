@@ -27,57 +27,57 @@ Một ứng dụng Next.js full-stack để bán điện thoại chính hãng v�
 
 ## Cấu trúc thư mục
 
-\`\`\`
-phone-sales-website/
-├── app/
-│   ├── page.tsx                 # Trang chủ
-│   ├── layout.tsx               # Layout chính
-│   ├── globals.css              # CSS toàn cục
-│   ├── api/
-│   │   ├── products/            # API sản phẩm
-│   │   ├── cart/                # API giỏ hàng
-│   │   ├── orders/              # API đơn hàng
-│   │   ├── contact/             # API liên hệ
-│   │   └── search/              # API tìm kiếm
-│   ├── products/
-│   │   ├── page.tsx             # Danh sách sản phẩm
-│   │   └── [id]/
-│   │       └── page.tsx         # Chi tiết sản phẩm
-│   ├── cart/
-│   │   └── page.tsx             # Giỏ hàng
-│   ├── checkout/
-│   │   └── page.tsx             # Thanh toán
-│   ├── search/
-│   │   └── page.tsx             # Kết quả tìm kiếm
-│   ├── blog/
-│   │   ├── page.tsx             # Danh sách blog
-│   │   └── [id]/
-│   │       └── page.tsx         # Chi tiết blog
-│   ├── about/
-│   │   └── page.tsx             # Về chúng tôi
-│   ├── contact/
-│   │   └── page.tsx             # Liên hệ
-│   ├── faq/
-│   │   └── page.tsx             # FAQ
-│   ├── warranty/
-│   │   └── page.tsx             # Bảo hành
-│   ├── returns/
-│   │   └── page.tsx             # Trả hàng
-│   ├── shipping/
-│   │   └── page.tsx             # Vận chuyển
-│   └── admin/
-│       └── page.tsx             # Admin Dashboard
-├── components/
-│   ├── header.tsx               # Header
-│   ├── footer.tsx               # Footer
-│   ├── hero.tsx                 # Hero section
-│   ├── product-grid.tsx         # Lưới sản phẩm
-│   ├── product-card.tsx         # Thẻ sản phẩm
-│   └── search-bar.tsx           # Thanh tìm kiếm
-├── public/
-│   └── [images]                 # Hình ảnh sản phẩm
-└── package.json
-\`\`\`
+```
+phone-sales-website/  
+├── app/  
+│   ├── page.tsx                 # Trang chủ  
+│   ├── layout.tsx               # Layout chính  
+│   ├── globals.css              # CSS toàn cục  
+│   ├── api/  
+│   │   ├── products/            # API sản phẩm  
+│   │   ├── cart/                # API giỏ hàng  
+│   │   ├── orders/              # API đơn hàng  
+│   │   ├── contact/             # API liên hệ  
+│   │   └── search/              # API tìm kiếm  
+│   ├── products/  
+│   │   ├── page.tsx             # Danh sách sản phẩm  
+│   │   └── [id]/  
+│   │       └── page.tsx         # Chi tiết sản phẩm  
+│   ├── cart/  
+│   │   └── page.tsx             # Giỏ hàng  
+│   ├── checkout/  
+│   │   └── page.tsx             # Thanh toán  
+│   ├── search/  
+│   │   └── page.tsx             # Kết quả tìm kiếm  
+│   ├── blog/  
+│   │   ├── page.tsx             # Danh sách blog  
+│   │   └── [id]/  
+│   │       └── page.tsx         # Chi tiết blog  
+│   ├── about/  
+│   │   └── page.tsx             # Về chúng tôi  
+│   ├── contact/  
+│   │   └── page.tsx             # Liên hệ  
+│   ├── faq/  
+│   │   └── page.tsx             # FAQ  
+│   ├── warranty/  
+│   │   └── page.tsx             # Bảo hành  
+│   ├── returns/  
+│   │   └── page.tsx             # Trả hàng  
+│   ├── shipping/  
+│   │   └── page.tsx             # Vận chuyển  
+│   └── admin/  
+│       └── page.tsx             # Admin Dashboard  
+├── components/  
+│   ├── header.tsx               # Header  
+│   ├── footer.tsx               # Footer  
+│   ├── hero.tsx                 # Hero section  
+│   ├── product-grid.tsx         # Lưới sản phẩm  
+│   ├── product-card.tsx         # Thẻ sản phẩm  
+│   └── search-bar.tsx           # Thanh tìm kiếm  
+├── public/  
+│   └── [images]                 # Hình ảnh sản phẩm  
+└── package.json  
+```
 
 ## Công nghệ sử dụng
 
